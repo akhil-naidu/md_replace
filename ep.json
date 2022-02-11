@@ -1,12 +1,12 @@
 {
   "parts": [
     {
-      "name": "copy_paste_select_all",
+      "name": "replace",
       "client_hooks": {
-        "postAceInit" : "md_replace/static/js/copy_paste_select_all"
+        "postAceInit" : "md_replace/static/js/replace"
       },
       "hooks": {
-        "eejsBlock_dd_edit" : "md_replace/copy_paste_select_all"
+        "eejsBlock_dd_edit" : "md_replace/replace"
       }
     }
   ]
