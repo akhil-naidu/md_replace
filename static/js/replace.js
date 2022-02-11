@@ -10,8 +10,8 @@ exports.postAceInit = (hook, context) => {
     }, 'selectAll', true);
   });
 
-  var buttonHTML = '<li class="acl-write" id="findAndReplace"><a class="grouped-middle" data-l10n-id="pad.toolbar.replace.title" title="findAndReplace"><button class="buttonicon buttonicon-settings"></button></a></li>';
-  $(buttonHTML).insertAfter($('.buttonicon-indent').parent().parent());
+  var buttonHTML = '<li class="separator"></li><li class="acl-write" id="findAndReplace"><a class="grouped-middle" data-l10n-id="pad.toolbar.replace.title" title="findAndReplace"><span class="buttonicon icon-shuffle"></span></a></li>';
+    $(buttonHTML).insertAfter($('.buttonicon-outdent').parent().parent());
 
   $('#findAndReplace').click(() => {
     const from = prompt('Search for...');
