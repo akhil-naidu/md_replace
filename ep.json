@@ -4,9 +4,6 @@
       "name": "replace",
       "client_hooks": {
         "postAceInit" : "md_replace/static/js/replace"
-      },
-      "hooks": {
-        "eejsBlock_dd_edit" : "md_replace/replace"
       }
     }
   ]
